@@ -5,5 +5,6 @@ include_directories(.)
 LINK_DIRECTORIES(/usr/local/lib)
 
 add_executable(is_brace_valid is_brace_valid.c)
+add_executable(strstr strstr.c)
 #target_link_libraries(basic_test xx)
 
